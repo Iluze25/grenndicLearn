@@ -1,0 +1,88 @@
+html, body {
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+body {
+    color: rgb(255, 255, 255);
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.236);
+    backdrop-filter: blur(1px);
+    border-radius: 5px;
+    flex-direction: column;
+}
+
+nav header h1 {
+    font-size: 45px;
+}
+
+nav header {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+}
+
+nav header #paragraph {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    position: relative;
+    top: -15px;
+    width: 35vh;
+    flex-wrap: wrap;
+    align-self: center;
+    color: rgba(255, 255, 255, 0.316);
+}
+
+nav header #paragraph p {
+    font-size: 10px;
+}
+
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    position: relative;
+    align-self: center;
+    justify-content: center;
+    display: flex;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    background-color: aqua;
+    color: red;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul li {
+    list-style-type: none;
+}
+
+
+#backBody {
+    margin: 0;
+    padding: 0;
+}
+
+#backBody video{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    position: fixed;
+    z-index: -1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
