@@ -1,0 +1,15 @@
+section {
+    
+    display: flex;
+    
+    
+   flex-flow: row wrap;
+    
+    
+}
+
+article {
+    flex: 500px;
+    background-color: aqua;
+    
+}
