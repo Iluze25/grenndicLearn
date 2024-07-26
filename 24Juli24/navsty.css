@@ -1,0 +1,15 @@
+html, body {
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+#container {
+    background-color: rgb(211, 84, 84);
+}
+ul {
+    display: flex;
+    justify-content: left;
+    justify-items: 1vw;
+    margin: 30px;
+    
+}
