@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belajar Membuat Form Menggunakan FlexBox</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton+SC&family=Inconsolata:wght@200..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="container">
+        <div id="Form">
+            <header>
+                <h1>Daftar Sekarang</h1>
+            </header>
+            <div id="input">
+                <div class="formControll">
+                    <!-- 1 -->
+                    <label for="username">Username</label>
+                    <!-- Label saat diklik maka akan tertuju pada id yang sudah ditulis -->
+                    <input type="text" id="username" placeholder="Masukkan Username">
+                </div>
+                <div class="formControll">
+                    <!-- 2 -->
+                    <label for="email">Email</label>
+                    <!-- Label saat diklik maka akan tertuju pada id yang sudah ditulis -->
+                    <input type="email" id="email" placeholder="Masukkan Email">
+                </div>
+                <div class="formControll">
+                    <!-- 3 -->
+                    <label for="password">Kata sandi</label>
+                    <!-- Label saat diklik maka akan tertuju pada id yang sudah ditulis -->
+                    <input type="password" id="password" placeholder="Masukkan Kata Sandi">
+                </div>
+                <div class="formControll">
+                    <!-- 4 -->
+                    <label for="passwordAgain">Konfirmasi Kata sandi</label>
+                    <!-- Label saat diklik maka akan tertuju pada id yang sudah ditulis -->
+                    <input type="password" id="passwordAgain" placeholder="Masukkan Kata Sandi Lagi">
+                </div>
+                <div class="formControll formButton">
+                    <!-- Saya membuat 2 class, agar bisa mengakses button dengan class yang berbeda -->
+                    <!-- 4 -->
+                    <button>Daftar Sekarang</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

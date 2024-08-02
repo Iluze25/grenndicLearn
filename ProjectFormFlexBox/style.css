@@ -1,0 +1,79 @@
+html, body {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    font-family: "Inconsolata", monospace;
+}
+
+#container {
+    /* Saya membuat width dan height pada container agar flex berjalan di dalam container */
+    height: 99vh;
+    width: 45vh;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#Form {
+    background-color: rgb(150, 150, 255);
+    height: 80vh;
+    width: 40vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 5px solid white;
+    border-radius: 5px;
+
+}
+
+#input {
+    position: relative;
+    top: 20px;
+}
+
+.formControll {
+    display: flex;
+    flex-direction: column;
+    width: 35vh;
+    position: relative;
+    margin: 2vh;
+    top: 9vh;
+}
+
+.formControll input {
+    height: 5vh;
+    border-radius: 5px;
+    margin: 1vh;
+}
+
+.formButton button{
+    height: 5vh;
+    border-radius: 5px;
+    background-color: rgb(201, 201, 239);
+    color: rgb(27, 27, 27);
+    font-weight: bold;
+}
+
+.formButton button:hover, .formControll input:hover{
+    background-color: black;
+    color: white;
+}
+
+
+header {
+    position: relative;
+    top: 5vh;
+}
+
+header:hover {
+    color: chartreuse;
+}
